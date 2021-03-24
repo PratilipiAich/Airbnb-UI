@@ -1,0 +1,29 @@
+.text-container {
+  margin: 5% 0px 2% 8%;
+  color: rgba(245, 245, 245, 0.842);
+  width: 10%;
+}
+
+.heading {
+  color:white; 
+  background-style:white; 
+  font-size:100px; 
+  font-weight:700; 
+  letter-spacing:-0.02em; 
+  line-height:92.88px;
+  font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.btn {
+  margin: 0 0 10% 8%;
+  background: white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 640px) {
+  .heading {
+    width: fit-content;
+  }
+}
