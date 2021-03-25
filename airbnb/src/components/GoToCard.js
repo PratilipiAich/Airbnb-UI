@@ -16,7 +16,7 @@ import "../styles/GoToCard.css";
 export default function GoToCard() {
 
   return (
-    <div className="root">
+    <div className="card-root">
       <Grid>
         <Row className="row">
           <Col>

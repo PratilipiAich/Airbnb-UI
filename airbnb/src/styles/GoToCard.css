@@ -1,5 +1,5 @@
-.root {
-    margin: 10% 5% 0 8%;
+.card-root {
+  margin: 10% 5% 0 8%;
   }
   .row {
     margin-bottom: 3%;
@@ -13,7 +13,7 @@
   }
 
   @media only screen and (max-width: 800px){
-    .root {
-      margin-top: 30%;
+    .card-root {
+      margin-top: 35%;
     }
   }
