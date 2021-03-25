@@ -23,7 +23,6 @@ ul {
     border-right: 1px solid lightgray;
     cursor: pointer;
     padding: 12px 6% 12px 5%;
-    height: 5px;
 }
 
 .head:hover {
