@@ -14,21 +14,17 @@ import { Col, Row } from "react-bootstrap";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    margin: "0 5% 10% 5%",
+    margin: "8% 5% 0 8%",
   },
-  cardroot: {
-    display: "flex",
-    backgroundColor: "rgba(250, 250, 250, 0.5)"
-  },
-  details: {
-    display: "flex",
-    flexDirection: "column",
-  },
-  content: {
-    flex: "1 0 auto",
+  row: {
+    marginBottom: "3%",
   },
   cover: {
-    width: 151,
+    borderRadius: "10px",
+    marginRight: "20px",
+    float: "left",
+    height:"80px",
+    width:"80px"
   },
 }));
 
@@ -39,82 +35,88 @@ export default function GoToCard() {
   return (
     <div className={classes.root}>
       <Grid>
-        <Row>
+        <Row className={classes.row}>
           <Col>
-            <Card className={classes.cardroot}>
-              <CardMedia
-                className={classes.cover}
-                image={img1}
-                title="Live from space album cover"
-              />
-              <div className={classes.details}>
-                <CardContent className={classes.content}>
-                  <Typography component="h5" variant="h5">
-                    Gokarna
-                  </Typography>
-                  <Typography variant="subtitle1" color="textSecondary">
-                    6.5-hour drive
-                  </Typography>
-                </CardContent>
-              </div>
-            </Card>
+            <img
+              src={img1}
+              className={classes.cover}
+            />
+            <p style={{ margin: "12px 10px 0 0", fontWeight: "600" }}>
+              Gokarna
+            </p>
+            <p style={{ margin: "0 10px 0 0" }}>6.5-hour drive</p>
           </Col>
           <Col>
-            <Card className={classes.cardroot}>
-              <CardMedia
-                className={classes.cover}
-                image={img1}
-                title="Live from space album cover"
-              />
-                            <div className={classes.details}>
-                <CardContent className={classes.content}>
-                  <Typography component="h5" variant="h5">
-                    Live From Space
-                  </Typography>
-                  <Typography variant="subtitle1" color="textSecondary">
-                    Mac Miller
-                  </Typography>
-                </CardContent>
-              </div>
-            </Card>
+            <img
+              src={img1}
+              className={classes.cover}
+            />
+            <p style={{ margin: "12px 10px 0 0", fontWeight: "600" }}>
+              Ooty
+            </p>
+            <p style={{ margin: "0 10px 0 0" }}>5-hour drive</p>
           </Col>
           <Col>
-            <Card className={classes.cardroot}>
-              <CardMedia
-                className={classes.cover}
-                image={img1}
-                title="Live from space album cover"
-              />
-                            <div className={classes.details}>
-                <CardContent className={classes.content}>
-                  <Typography component="h5" variant="h5">
-                    Live From Space
-                  </Typography>
-                  <Typography variant="subtitle1" color="textSecondary">
-                    Mac Miller
-                  </Typography>
-                </CardContent>
-              </div>
-            </Card>
+            <img
+              src={img1}
+              className={classes.cover}
+            />
+            <p style={{ margin: "12px 10px 0 0", fontWeight: "600" }}>
+              Kodaikanal
+            </p>
+            <p style={{ margin: "0 10px 0 0" }}>6.5-hour drive</p>
           </Col>
           <Col>
-            <Card className={classes.cardroot}>
-              <CardMedia
-                className={classes.cover}
-                image={img1}
-                title="Live from space album cover"
-              />
-                            <div className={classes.details}>
-                <CardContent className={classes.content}>
-                  <Typography component="h5" variant="h5">
-                    Live From Space
-                  </Typography>
-                  <Typography variant="subtitle1" color="textSecondary">
-                    Mac Miller
-                  </Typography>
-                </CardContent>
-              </div>
-            </Card>
+            <img
+              src={img1}
+              className={classes.cover}
+            />
+            <p style={{ margin: "12px 10px 0 0", fontWeight: "600" }}>
+              Kalpetta
+            </p>
+            <p style={{ margin: "0 10px 0 0" }}>5-hour drive</p>
+          </Col>
+        </Row>
+        <Row className={classes.row}>
+          <Col>
+            <img
+              src={img1}
+              className={classes.cover}
+            />
+            <p style={{ margin: "12px 10px 0 0", fontWeight: "600" }}>
+              Munnar
+            </p>
+            <p style={{ margin: "0 10px 0 0" }}>7.5-hour drive</p>
+          </Col>
+          <Col>
+            <img
+              src={img1}
+              className={classes.cover}
+            />
+            <p style={{ margin: "12px 10px 0 0", fontWeight: "600" }}>
+              Varkala
+            </p>
+            <p style={{ margin: "0 10px 0 0" }}>10-hour drive</p>
+          </Col>
+          <Col>
+            <img
+              src={img1}
+              className={classes.cover}
+            />
+            <p style={{ margin: "12px 10px 0 0", fontWeight: "600" }}>
+              Hosur
+            </p>
+            <p style={{ margin: "0 10px 0 0" }}>45-minute drive</p>
+          </Col>
+          <Col>
+            <img
+              src={img1}
+              className={classes.cover}
+            />
+            <p style={{ margin: "12px 10px 0 0", fontWeight: "600" }}>
+              Hampi
+            </p>
+            <p style={{ margin: "0 10px 0 0" }}>5-hour drive</p>
           </Col>
         </Row>
       </Grid>
