@@ -22,6 +22,10 @@
   font-weight: 600;
 }
 
+.btn:hover {
+  background: rgba(221, 221, 221, 0.966);
+}
+
 @media only screen and (max-width: 640px) {
   .heading {
     width: fit-content;
